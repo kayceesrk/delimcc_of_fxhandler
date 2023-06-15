@@ -11,3 +11,9 @@ $ git clone https://github.com/kayceesrk/delimcc_of_fxhandler
 $ cd delimcc_of_fxhandler
 $ opam pin .
 ```
+
+There is a test in `tests/`, which can be run as follows:
+
+```bash
+$ dune exec ./test/test1.exe
+```
