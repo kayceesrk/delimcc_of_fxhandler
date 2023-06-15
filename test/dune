@@ -1,2 +1,3 @@
 (test
- (name delimcc_of_fxhandler))
+ (name test1)
+ (libraries delimcc_of_fxhandler))
