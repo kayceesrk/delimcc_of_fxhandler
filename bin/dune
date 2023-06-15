@@ -1,0 +1,4 @@
+(executable
+ (public_name delimcc_of_fxhandler)
+ (name main)
+ (libraries delimcc_of_fxhandler))

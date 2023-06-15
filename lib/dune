@@ -1,0 +1,4 @@
+(library
+ (name delimcc_of_fxhandler)
+ (public_name delimcc_of_fxhandler)
+ (libraries multicont))
