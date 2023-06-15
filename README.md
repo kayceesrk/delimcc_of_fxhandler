@@ -21,9 +21,9 @@ $ dune exec ./test/test1.exe
 ## Note
 
 Delimited control operators such as shift/reset and control/prompt are presented
-in a setting where the continuations may be resumed more than once. OCaml 5
-delimited continuations may not be resumed more than once. This library uses
-[ocaml-multicont](https://github.com/dhil/ocaml-multicont) to support multi-shot
-continuations. Hence, the same
+in a setting where the continuations may be resumed more than once whereas OCaml
+5 delimited continuations may not be resumed more than once. To support
+multi-shot continuations, this library uses
+[ocaml-multicont](https://github.com/dhil/ocaml-multicont). Hence, the same
 [caveats](https://github.com/dhil/ocaml-multicont#cautionary-tales-in-programming-with-multi-shot-continuations-in-ocaml)
 that applies to `ocaml-multicont` applies to this library.
